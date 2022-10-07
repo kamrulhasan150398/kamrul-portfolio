@@ -43,3 +43,22 @@ section {
     background-repeat: no-repeat;
 
 }
+
+.pic {
+    border-radius: 50px;
+}
+
+.linkk {
+    text-decoration: none;
+    background-image: linear-gradient(blue, red);
+    color: white;
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.dream-big {
+    background-image: url(photo/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
