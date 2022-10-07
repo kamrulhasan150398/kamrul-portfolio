@@ -16,8 +16,9 @@ h2 {
     color: orange;
 }
 
-section {
+.container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -61,4 +62,37 @@ section {
     background-image: url(photo/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.expereance {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.expereance-era {
+    background-image: url(photo/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#border-change {
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+    border-left: 10px solid;
+
+}
+
+#full-devloper {
+    border-image: linear-gradient(orange, black);
+    border-image-slice: 1;
+    border-left: 10px solid;
+}
+
+footer p {
+    text-align: center;
 }
